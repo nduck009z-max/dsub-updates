@@ -1,6 +1,6 @@
 {
-  "version": "1.3.5",
-  "release_date": "2026-08-13",
-  "changelog": "1. Sửa lỗi kẹt 99% khi render video dài (tăng timeout 300s & Log Heartbeat 5s).\n2. Tự động đọc đúng 100% thời lượng video có tên Tiếng Trung/Unicode dài.\n3. Khôi phục 100% dấu Tiếng Việt chuẩn xác & sửa lỗi quét OCR.\n4. Cố định Blur & Logo không bị xê dịch khi tua frame.\n5. Nâng cấp âm thanh Stereo 44.1kHz, giữ to rõ tiếng gốc.",
-  "download_url": "https://drive.usercontent.google.com/download?id=1Z-gLVV06PFrExjPJbbYe1RP5Ms41DKPO&export=download&confirm=t"
+  "version": "1.3.6",
+  "release_date": "2026-08-14",
+  "changelog": "1. Fix dứt điểm lỗi 100% các dòng khi dùng giọng Piper Local (Ngọc Huyền, Adam, Ban Mai).\n2. Bật SSL Bypass cho CapCut TTS, kết nối 100% mượt qua tường lửa nhà mạng & diệt virus.\n3. Tự động chèn 1.0s audio im lặng cho các câu ký hiệu âm nhạc ♪/lỗi mạng, lồng tiếng 100% không bị dừng dở chừng.\n4. Mở rộng đa đường dẫn tìm kiếm piper.exe & ttsmodels trên mọi ổ đĩa (C, D, E, Desktop).",
+  "download_url": "https://drive.usercontent.google.com/download?id=12PA2Z-WDXph-0IimfE8QZ7ZLm50UmdLo&export=download&confirm=t"
 }
