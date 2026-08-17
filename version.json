@@ -1,6 +1,6 @@
 {
-  "version": "1.3.6",
-  "release_date": "2026-08-14",
-  "changelog": "1. Fix dứt điểm lỗi 100% các dòng khi dùng giọng Piper Local (Ngọc Huyền, Adam, Ban Mai).\n2. Bật SSL Bypass cho CapCut TTS, kết nối 100% mượt qua tường lửa nhà mạng & diệt virus.\n3. Tự động chèn 1.0s audio im lặng cho các câu ký hiệu âm nhạc ♪/lỗi mạng, lồng tiếng 100% không bị dừng dở chừng.\n4. Mở rộng đa đường dẫn tìm kiếm piper.exe & ttsmodels trên mọi ổ đĩa (C, D, E, Desktop).",
-  "download_url": "https://drive.usercontent.google.com/download?id=12PA2Z-WDXph-0IimfE8QZ7ZLm50UmdLo&export=download&confirm=t"
+  "version": "1.3.7",
+  "release_date": "2026-08-17",
+  "changelog": "1. Tự động phóng to phông chữ phụ đề tỉ lệ 9:16 (Shorts/TikTok/Reels) cho cả màn hình Preview lẫn Video Render.\n2. Tự động quét & nạp giọng Piper ONNX tùy chỉnh trong thư mục ttsmodels kèm nút Quét Giọng & Mở Folder 1-click.\n3. Nâng cấp Auto-Updater hỗ trợ Direct Stream Google Drive 100% không bị dính trang HTML quét virus.\n4. Bật SSL Bypass cho CapCut TTS & Smart Silent Fallback 1.0s cho các câu rỗng/dấu ba chấm...",
+  "download_url": "https://drive.usercontent.google.com/download?id=10EDjCZXOQCtsuOs7zvz3RlP3DBRKrAfO&export=download&confirm=t"
 }
