@@ -1,6 +1,6 @@
 {
   "version": "1.3.9",
   "release_date": "2026-08-18",
-  "changelog": "1. Khắc phục dứt điểm lỗi rò rỉ từ ngữ Tiếng Việt khi dịch phụ đề Tiếng Trung sang Tiếng Anh/Tiếng Thái.\n2. Tối ưu bộ Prompt & Thể loại phim riêng biệt theo từng Ngôn ngữ (Anh, Thái, Việt) không bị nhiễm ngôn ngữ chéo.\n3. Khắc phục triệt để lỗi lệch vùng làm mờ (Blur), lệch Logo/Watermark, Lật gương & Crop tỷ lệ (16:9, 9:16, 1:1, 4:3) giúp Video Render khớp 100% với màn hình Preview.\n4. Đóng gói bộ cài đặt Inno Setup Installer & Bản vá tự động Auto-Updater v1.3.9.",
+  "changelog": "1. Khắc phục dứt điểm lỗi rò rỉ từ ngữ Tiếng Việt khi dịch phụ đề Tiếng Trung sang Tiếng Anh/Tiếng Thái.\n2. Tối ưu bộ Prompt & Thể loại phim riêng biệt theo từng Ngôn ngữ (Anh, Thái, Việt) không bị nhiễm ngôn ngữ chéo.\n3. Khắc phục triệt để lỗi lệch vùng làm mờ (Blur), lệch Logo/Watermark, Lật gương & Crop tỷ lệ (16:9, 9:16, 1:1, 4:3) giúp Video Render khớp 100% với màn hình Preview.\n4.",
   "download_url": "https://drive.usercontent.google.com/download?id=1jroqC66fp0e7jxKl3w8Lq9UOHEH-Hu7D&export=download&confirm=t"
 }
