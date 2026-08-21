@@ -1,6 +1,14 @@
 {
-  "version": "1.3.11",
+  "version": "1.3.12",
   "release_date": "2026-08-21",
-  "changelog": "1. Sửa dứt điểm lỗi phông chữ Bangers bị biến thành Arial / lỗi đường dẫn font ASS trên Windows.\n2. Khôi phục và nâng cấp toàn diện thuật toán Làm Mờ & Xóa Chữ Gốc (Delogo Inpainting tự nhiên, Gaussian Blur mượt mà thích ứng độ phân giải 4K, Box Blur đậm nét).\n3. Sửa lỗi phụ đề không thay đổi kích thước phông và khung Preview kéo thả không co giãn theo kích thước chữ/nhiều dòng.\n4. Sửa triệt để lỗi FFmpeg Error -22 (4294967274 / Invalid Argument) trên video không có tiếng và loại bỏ nguy cơ crash NaN của bộ lọc âm thanh.\n5. Tích hợp đầy đủ toàn bộ nâng cấp của bản 1.3.10 (Tăng tốc quét Sub OCR bằng GPU CUDA NVIDIA, Whisper đa model, sửa lỗi xén góc video 9:16 khi render NVENC).",
-  "download_url": "https://drive.usercontent.google.com/download?id=1KDv5E54jQNp91tgUFzl5s9_jqBci9DoD&export=download&confirm=t"
+  "download_url": "https://drive.usercontent.google.com/download?id=1Ces03sRC214oDT7sX4Yidr33e2kdonNK&export=download&confirm=t",
+  "changelog": [
+    "Nâng cấp Faster-Whisper ASR: Tích hợp cơ chế Quét 2 Lớp (2-Tier Auto Fallback) chống triệt để lỗi không nhận diện được câu thoại khi video có nhạc nền lớn hoặc âm lượng nhỏ.",
+    "Sửa lỗi mất âm thanh gốc & tương thích 100% video Bilibili / Douyin / TikTok / Reels: Nhận diện luồng âm thanh PyAV C-Engine & chuẩn hóa mốc thời gian PTS-STARTPTS.",
+    "Khôi phục và nâng cấp thuật toán làm mờ (Delogo inpainting, Gaussian blur, Box blur) chống lộ watermark/sub cứng.",
+    "Sửa lỗi FFmpeg Error -22 (4294967274 / Invalid Argument) khi xuất video.",
+    "Đồng bộ chuẩn xác kích thước Font chữ phụ đề giữa giao diện Preview và Video Render thực tế.",
+    "Tự động chuẩn hóa âm thanh thuyết minh Full-track Peak Normalization (-1.0 dBFS) trong trẻo, không rè."
+  ],
+  "mandatory": false
 }
