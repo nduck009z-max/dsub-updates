@@ -1,14 +1,16 @@
 {
-  "version": "1.3.12",
-  "release_date": "2026-08-21",
-  "download_url": "https://drive.usercontent.google.com/download?id=1Ces03sRC214oDT7sX4Yidr33e2kdonNK&export=download&confirm=t",
+  "version": "1.3.13",
+  "release_date": "2026-08-22",
+  "download_url": "https://drive.usercontent.google.com/download?id=1FGqcnYqDsJBKNwFVg6fxwSK1GvOI2Cx6&export=download&confirm=t",
   "changelog": [
-    "Nâng cấp Faster-Whisper ASR: Tích hợp cơ chế Quét 2 Lớp (2-Tier Auto Fallback) chống triệt để lỗi không nhận diện được câu thoại khi video có nhạc nền lớn hoặc âm lượng nhỏ.",
-    "Sửa lỗi mất âm thanh gốc & tương thích 100% video Bilibili / Douyin / TikTok / Reels: Nhận diện luồng âm thanh PyAV C-Engine & chuẩn hóa mốc thời gian PTS-STARTPTS.",
-    "Khôi phục và nâng cấp thuật toán làm mờ (Delogo inpainting, Gaussian blur, Box blur) chống lộ watermark/sub cứng.",
-    "Sửa lỗi FFmpeg Error -22 (4294967274 / Invalid Argument) khi xuất video.",
-    "Đồng bộ chuẩn xác kích thước Font chữ phụ đề giữa giao diện Preview và Video Render thực tế.",
-    "Tự động chuẩn hóa âm thanh thuyết minh Full-track Peak Normalization (-1.0 dBFS) trong trẻo, không rè."
+    "🔥 Lồng tiếng tự nhiên & Khớp khung hình: Tốc độ đọc <= 1.20x, tự động làm chậm video phân cảnh khi câu dài (Video PTS Warping) chống méo tiếng/líu lưỡi.",
+    "🛡️ Xóa bỏ lỗi ngắt câu: Đọc trọn vẹn 100% từng từ, không bị cắt cụt câu thoại khi câu sau tới gần.",
+    "✨ Tự động đồng bộ phụ đề cứng: Khớp chính xác mốc hiển thị phụ đề theo cảnh video làm chậm và giọng đọc.",
+    "🛠️ Sửa lỗi mất tiếng khi Render & BGM: Sửa dứt điểm lỗi mất âm thanh lồng tiếng khi video ngắn hoặc khi thêm nhạc nền.",
+    "🎙️ Nâng cấp Faster-Whisper ASR: Quét 2 lớp (2-Tier Fallback) nhận diện chuẩn khi nhạc nền lớn.",
+    "📱 Tương thích video đa nền tảng: Nhận diện chuẩn âm thanh video Bilibili / Douyin / TikTok / Reels.",
+    "🎨 Nâng cấp xóa sub/watermark: Thuật toán Delogo inpainting và Gaussian blur chống lộ sub cứng.",
+    "📝 Tối ưu phụ đề 1 dòng: Chuẩn hóa phụ đề 1 dòng phong cách Netflix, ngắt câu chuẩn ngữ nghĩa."
   ],
   "mandatory": false
 }
